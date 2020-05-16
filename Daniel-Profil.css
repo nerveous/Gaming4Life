@@ -1,0 +1,36 @@
+.u-section-1 {min-height: 503px}
+.u-section-1 .u-image-1 {width: 705px; left: auto; right: 0}
+.u-section-1 .u-text-1 {font-family: Arizonia; font-weight: 400; font-size: 3.75rem; width: 760px; margin: 132px auto 0}
+.u-section-1 .u-text-2 {font-size: 1.25rem; margin: 21px 170px 60px} 
+
+@media (max-width: 1199px){ .u-section-1 {min-height: 500px}
+.u-section-1 .u-text-2 {margin-right: 70px; margin-left: 70px} }
+
+@media (max-width: 991px){ .u-section-1 .u-text-1 {margin-right: calc(((100% - 720px) / 2)); margin-left: calc(((100% - 720px) / 2)); width: 720px}
+.u-section-1 .u-text-2 {margin-left: 0; margin-right: 0} }
+
+@media (max-width: 767px){ .u-section-1 {min-height: 484px}
+.u-section-1 .u-text-1 {margin-left: calc(((100% - 540px) / 2)); margin-right: calc(((100% - 540px) / 2)); font-size: 2.25; width: 540px}
+.u-section-1 .u-text-2 {font-size: 1.5} }
+
+@media (max-width: 575px){ .u-section-1 {min-height: 385px}
+.u-section-1 .u-text-1 {margin-left: calc(((100% - 340px) / 2)); margin-right: calc(((100% - 340px) / 2)); width: 340px} }.u-section-2 .u-sheet-1 {min-height: 688px}
+.u-section-2 .u-text-1 {margin: 45px 901px 0 167px}
+.u-section-2 .u-image-1 {width: 540px; height: 511px; margin: 20px 56px 0 auto}
+.u-section-2 .u-text-2 {margin: -511px 744px 0 11px} 
+
+@media (max-width: 1199px){ .u-section-2 .u-text-1 {margin-right: 801px; margin-left: 67px}
+.u-section-2 .u-text-2 {margin-right: 555px; margin-left: 0} }
+
+@media (max-width: 991px){ .u-section-2 .u-text-1 {margin-right: 648px; margin-left: 0}
+.u-section-2 .u-text-2 {margin-right: 335px} }
+
+@media (max-width: 767px){ .u-section-2 .u-sheet-1 {min-height: 668px}
+.u-section-2 .u-text-1 {margin-right: 468px}
+.u-section-2 .u-image-1 {margin-right: 0}
+.u-section-2 .u-text-2 {margin-top: -593px; margin-right: 155px} }
+
+@media (max-width: 575px){ .u-section-2 .u-sheet-1 {min-height: 535px}
+.u-section-2 .u-text-1 {margin-right: 268px}
+.u-section-2 .u-image-1 {width: 340px; height: 322px}
+.u-section-2 .u-text-2 {margin-right: 0} }
