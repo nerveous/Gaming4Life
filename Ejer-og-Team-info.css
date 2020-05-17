@@ -23,8 +23,8 @@
 .u-section-2 .u-image-1 {width: 270px; height: 322px; box-shadow: -21px 19px 20px 5px rgba(0,0,0,0.25); margin: 52px auto 0 169px}
 .u-section-2 .u-text-1 {margin: -279px 87px 0 auto}
 .u-section-2 .u-text-2 {font-size: 1.125rem; margin: 18px 158px 0 517px}
-.u-section-2 .u-btn-1 {background-image: none; border-style: solid; margin: 49px 485px 0 auto}
-.u-section-2 .u-text-3 {font-size: 1.125rem; margin: 6px auto 0 119px}
+.u-section-2 .u-btn-1 {background-image: none; border-style: solid; font-weight: 700; text-transform: uppercase; margin: 49px 485px 0 auto; padding: 1px 31px 2px 30px}
+.u-section-2 .u-text-3 {font-size: 1.125rem; margin: 23px auto 0 119px}
 .u-section-2 .u-text-4 {font-size: 2.25rem; margin: 0 auto 33px 169px} 
 
 @media (max-width: 1199px){ .u-section-2 .u-image-1 {width: 463px; margin-left: 47px}
