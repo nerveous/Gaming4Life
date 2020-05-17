@@ -69,10 +69,10 @@
 
 @media (max-width: 767px){ .u-section-2 {min-height: 3143px}
 .u-section-2 .u-sheet-1 {min-height: 3941px}
-.u-section-2 .u-text-1 {font-size: 2.25; margin-left: 45px; margin-right: 45px}
+.u-section-2 .u-text-1 {margin-left: 45px; margin-right: 45px}
 .u-section-2 .u-text-2 {margin-right: 180px; margin-left: 180px; font-size: 1.5}
 .u-section-2 .u-gallery-1 {height: 3357px; grid-template-columns: repeat(1, auto); width: 540px; margin-left: 0}
-.u-section-2 .u-text-3 {margin-left: 5px; font-size: 2.25} }
+.u-section-2 .u-text-3 {margin-left: 5px} }
 
 @media (max-width: 575px){ .u-section-2 {min-height: 1947px}
 .u-section-2 .u-sheet-1 {min-height: 2698px}
