@@ -26814,13 +26814,13 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-icon-1 {height: 100%}
 .u-header .u-icon-2 {height: 100%}
 .u-header .u-icon-3 {height: 100%}
-.u-header .u-menu-1 {margin: -44px 197px 24px auto}
+.u-header .u-menu-1 {margin: -47px 197px 35px auto}
 .u-header .u-nav-1 {font-size: 1rem; letter-spacing: 0; font-weight: 700; text-transform: uppercase}
-.u-header .u-nav-2 {font-size: 1rem}
-.u-header .u-nav-3 {font-size: 1rem}
+.u-header .u-nav-2 {font-size: 0.75rem; box-shadow: 0 5px 20px 0 rgba(0,0,0,0.35); font-weight: normal}
+.u-header .u-nav-3 {font-size: 0.75rem; box-shadow: 0 5px 20px 0 rgba(0,0,0,0.35); font-weight: normal}
 .u-header .u-nav-4 {font-size: 1rem}
-.u-header .u-nav-5 {font-size: 1rem}
-.u-header .u-nav-6 {font-size: 1rem} 
+.u-header .u-nav-5 {font-size: 0.75rem; font-weight: 700; box-shadow: 0 5px 20px 0 rgba(0,0,0,0.35)}
+.u-header .u-nav-6 {font-size: 0.75rem; font-weight: 700; box-shadow: 0 5px 20px 0 rgba(0,0,0,0.35)} 
 @media (max-width: 1199px){ .u-header .u-sheet-1 {min-height: 106px}
 .u-header .u-image-1 {width: 63px; height: 23px}
 .u-header .u-social-icons-1 {margin-top: -58px}
