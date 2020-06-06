@@ -1,7 +1,8 @@
 .u-section-1 .u-sheet-1 {min-height: 380px}.u-section-2 .u-sheet-1 {min-height: 500px}
 .u-section-2 .u-text-1 {width: 175px; margin: 14px auto 0}
 .u-section-2 .u-form-1 {height: 313px; margin: 109px 370px 25px 37px}
-.u-section-2 .u-form-group-4 {margin-left: 0; margin-right: 0} 
+.u-section-2 .u-form-group-4 {margin-left: 0; margin-right: 0}
+.u-section-2 .u-btn-1 {background-image: none; border-style: none} 
 
 @media (max-width: 1199px){ .u-section-2 .u-form-1 {margin-right: 207px; margin-left: 0} }
 
