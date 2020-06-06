@@ -8,7 +8,7 @@ $form = array(
     'success_redirect' => '',
     'email' => array(
         'from' => 'fromNicepageGaming4Life@Gaming4Life.com',
-        'to' => 'Gaming4life.s@yahoo.com'
+        'to' => 'gaming4life.s@yahoo.com'
     ),
     'fields' => array(
         'name' => array(
