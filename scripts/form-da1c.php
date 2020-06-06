@@ -14,10 +14,10 @@ $form = array(
         'name' => array(
             'order' => 1,
             'type' => 'string',
-            'label' => 'Name',
+            'label' => 'Navn',
             'required' => true,
             'errors' => array(
-                'required' => 'Field \'Name\' is required.'
+                'required' => 'Field \'Navn\' is required.'
             )
         ),
         'email' => array(
@@ -32,10 +32,10 @@ $form = array(
         'message' => array(
             'order' => 3,
             'type' => 'string',
-            'label' => 'Message',
+            'label' => 'Din Besked',
             'required' => true,
             'errors' => array(
-                'required' => 'Field \'Message\' is required.'
+                'required' => 'Field \'Din Besked\' is required.'
             )
         ),
         'agree' => array(
