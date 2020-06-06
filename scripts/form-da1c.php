@@ -7,7 +7,7 @@ $form = array(
     'email_message' => 'Du har en ny besked fra Gaming4Life Hjemmesiden',
     'success_redirect' => '',
     'email' => array(
-        'from' => 'from Nicepage-Gaming4Life @Gaming4Life.com',
+        'from' => 'fromNicepageGaming4Life@Gaming4Life.com',
         'to' => 'Gaming4life.s@yahoo.com'
     ),
     'fields' => array(
