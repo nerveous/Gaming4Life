@@ -1,23 +1,21 @@
 .u-section-1 {background-image: linear-gradient(0deg, rgba(0,0,0,0.05), rgba(0,0,0,0.05)), url("images/Hjemmesidebaggrund.jpg")}
 .u-section-1 .u-sheet-1 {min-height: 705px}
-.u-section-1 .u-text-1 {text-shadow: 2px 2px 8px rgba(0,0,0,0.4); animation-duration: 1000ms; font-size: 2.25rem; margin: 264px 829px 0 72px}
-.u-section-1 .u-text-2 {text-shadow: 2px 2px 8px rgba(0,0,0,0.4); background-image: none; font-family: Boogaloo; font-size: 9.25rem; font-weight: normal; margin: -32px 471px 60px 0} 
+.u-section-1 .u-image-1 {width: 473px; height: 169px; margin: 268px auto 0 8px}
+.u-section-1 .u-text-1 {text-shadow: 2px 2px 8px rgba(0,0,0,0.4); animation-duration: 1000ms; font-size: 1.875rem; margin: -173px 829px 60px 72px} 
 
 @media (max-width: 1199px){ .u-section-1 {background-position: 50% 50%}
 .u-section-1 .u-sheet-1 {min-height: 581px}
-.u-section-1 .u-text-1 {margin-left: 0; margin-right: 701px}
-.u-section-1 .u-text-2 {margin-right: 271px; width: 421px} }
+.u-section-1 .u-text-1 {margin-left: 0; margin-right: 701px} }
 
 @media (max-width: 991px){ .u-section-1 .u-sheet-1 {min-height: 445px}
 .u-section-1 .u-text-1 {margin-right: 481px} }
 
 @media (max-width: 767px){ .u-section-1 .u-sheet-1 {min-height: 334px}
-.u-section-1 .u-text-1 {margin-right: 301px}
-.u-section-1 .u-text-2 {margin-right: 119px; font-size: 2.25} }
+.u-section-1 .u-text-1 {margin-right: 301px} }
 
 @media (max-width: 575px){ .u-section-1 .u-sheet-1 {min-height: 287px}
-.u-section-1 .u-text-1 {width: auto; font-size: 1.875rem; margin-top: 94px; margin-right: 60px; margin-left: -36px}
-.u-section-1 .u-text-2 {width: auto; margin-right: 60px; margin-left: -60px} }.u-section-2 .u-sheet-1 {min-height: 632px}
+.u-section-1 .u-image-1 {width: 340px; height: 121px; margin-top: 108px; margin-left: 0}
+.u-section-1 .u-text-1 {width: auto; margin-top: -134px; margin-right: 60px; margin-left: -36px} }.u-section-2 .u-sheet-1 {min-height: 632px}
 .u-section-2 .u-layout-wrap-1 {margin: 60px auto 60px 0}
 .u-section-2 .u-layout-cell-1 {min-height: 512px}
 .u-section-2 .u-container-layout-1 {padding: 30px 60px 30px 30px}
