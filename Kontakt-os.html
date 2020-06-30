@@ -109,36 +109,44 @@
     <section class="u-clearfix u-section-1" id="sec-853f">
       <div class="u-clearfix u-sheet u-sheet-1"></div>
     </section>
-    <section class="u-clearfix u-section-2" id="sec-da1c">
+    <section class="u-align-left u-clearfix u-section-2" id="sec-da1c">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <h1 class="u-heading-font u-text u-title u-text-1">Kontakt os</h1>
-        <div class="u-form u-form-1">
-          <form action="" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" style="padding: 10px" source="custom" name="form">
-            <div class="u-form-group u-form-name">
-              <label for="name-cc8d" class="u-label">Navn</label>
-              <input type="text" placeholder="Skriv dit navn her" id="name-cc8d" name="name" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">
+        <h1 class="u-align-center u-heading-font u-text u-title u-text-1">Kontakt os</h1>
+        <div class="u-clearfix u-custom-html u-custom-html-1">
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+          <title></title>
+          <link href="contact-form.css" rel="stylesheet">
+          <div class="fcf-body">
+            <div id="fcf-form">
+              <h3 class="fcf-h3">Kontakt os her</h3>
+              <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                <div class="fcf-form-group">
+                  <label for="Name" class="fcf-label">Skriv dit navn her</label>
+                  <div class="fcf-input-group">
+                    <input type="text" id="Name" name="Name" class="fcf-form-control" required="">
+                  </div>
+                </div>
+                <div class="fcf-form-group">
+                  <label for="Email" class="fcf-label">Skriv din e-mail adresse her </label>
+                  <div class="fcf-input-group">
+                    <input type="email" id="Email" name="Email" class="fcf-form-control" required="">
+                  </div>
+                </div>
+                <div class="fcf-form-group">
+                  <label for="Message" class="fcf-label">Skriv din besked herunder</label>
+                  <div class="fcf-input-group">
+                    <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required=""></textarea>
+                  </div>
+                </div>
+                <div class="fcf-form-group">
+                  <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-block fcf-btn-lg fcf-btn-primary">Send Beskeden</button>
+                </div>
+                <div class="fcf-credit" id="fcf-credit"></div>
+                <input type="hidden" value="" name="recaptchaResponse">
+              </form>
             </div>
-            <div class="u-form-email u-form-group">
-              <label for="email-cc8d" class="u-label">Email</label>
-              <input type="email" placeholder="Skriv din egen godkendt E-mail adresse her" id="email-cc8d" name="email" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">
-            </div>
-            <div class="u-form-group u-form-message">
-              <label for="message-cc8d" class="u-label">Din Besked</label>
-              <textarea placeholder="Skriv din besked her" rows="4" cols="50" id="message-cc8d" name="message" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required=""></textarea>
-            </div>
-            <div class="u-form-agree u-form-group u-form-group-4">
-              <input type="checkbox" id="agree-088d" name="agree" class="u-agree-checkbox" required="">
-              <label for="agree-088d" class="u-agree-label u-label">Jeg acceptere hjemmesiden Gaming4Life og tilhørende siders <a href="https://nerveous.github.io/Gaming4Life/Vilk%C3%A5r-og-Betingelser.html">Vilkår og Betingelser</a>
-              </label>
-            </div>
-            <div class="u-align-left u-form-group u-form-submit">
-              <a href="#" class="u-btn u-btn-submit u-button-style u-grey-60 u-btn-1">Send Besked</a>
-              <input type="submit" value="submit" class="u-form-control-hidden">
-            </div>
-            <div class="u-form-send-message u-form-send-success">Mange tak. Vi har sendt din besked afsted....</div>
-            <div class="u-form-send-error u-form-send-message">Vi kunne desværre ikke sende din besked afsted. Det vi kede af. Men prøv igen om lidt.</div>
-            <input type="hidden" value="" name="recaptchaResponse">
-          </form>
+          </div>
         </div>
       </div>
     </section>

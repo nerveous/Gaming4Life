@@ -1,13 +1,5 @@
 .u-section-1 .u-sheet-1 {min-height: 380px}.u-section-2 .u-sheet-1 {min-height: 500px}
 .u-section-2 .u-text-1 {font-size: 1.875rem; width: 175px; margin: 43px auto 0}
-.u-section-2 .u-form-1 {height: 353px; width: 662px; margin: 68px 239px 37px}
-.u-section-2 .u-form-group-4 {margin-left: 0; margin-right: 0}
-.u-section-2 .u-btn-1 {background-image: none; border-style: none} 
+.u-section-2 .u-custom-html-1 {min-height: 461px; height: auto; width: 346px; margin: 28px auto 60px} 
 
-@media (max-width: 1199px){ .u-section-2 .u-form-1 {margin-right: 139px; margin-left: 139px} }
-
-@media (max-width: 991px){ .u-section-2 .u-form-1 {margin-right: 29px; margin-left: 29px} }
-
-@media (max-width: 767px){ .u-section-2 .u-form-1 {margin-right: 0; margin-left: 0; width: 540px} }
-
-@media (max-width: 575px){ .u-section-2 .u-form-1 {width: 340px} }
+@media (max-width: 575px){ .u-section-2 .u-custom-html-1 {width: 340px} }

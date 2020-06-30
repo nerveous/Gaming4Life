@@ -16044,6 +16044,7 @@ a.pswp__share--download:hover {
   min-height: 1em;
   height: auto;
   left: 0.1em;
+  fill: currentColor;
   text-align: center;
 }
 .u-custom-list .u-list-icon > :first-child {
@@ -16057,24 +16058,20 @@ a.pswp__share--download:hover {
   line-height: 0.9;
 }
 .u-text-icon {
-  display: inline-block;
   position: relative;
-  width: 1em;
-  min-height: 1em;
-  height: auto;
-  margin-left: 0.1em;
-  margin-right: 0.1em;
-  text-align: center;
+  font-size: 1em;
+  fill: currentColor;
+  vertical-align: middle;
 }
 .u-text-icon > :first-child {
   display: inline-block;
-  position: relative;
-  margin: -0.8em;
-  font-size: 0.8em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
   width: 1em;
   height: 1em;
-  vertical-align: middle;
-  line-height: 0.9;
+  transform: translate(-50%, -50%);
+  line-height: 1;
 }
 .u-login {
   display: inline-block;
