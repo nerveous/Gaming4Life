@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<header>
+<script>
+
+ <form action="#" onsubmit="if(document.getElementById('Jeg acceptere vilkårene.php').checked) { 
+return true; } else { alert('Vær søde at acceptere vores (Vilkår og Betingelser) for at forsætte.'); return false; }">
+
+if (empty($_POST['accepter']) || $_POST['accepter'] != 'accepter') {
+   echo 'Vær søde at acceptere vores (Vilkår og Betingelser) for at forsætte.';
+}
+</script>
+
+<body>
+
+<h2>Kontakt os herunder tak:</h2>
+<br>
+<form action="mailto:gaming4life.s@yahoo.com" method="post" enctype="text/plain">
+(Rigtige) navn her:<br>
+<input type="text" name="Afsenders - NAVN (GJORT OK)" required="true"><br><br>
+(Rigtige) e-mail her:<br>
+<input type="text" name="Afsenders - E-MAIL (GJORT OK)" required="true"><br><br>
+<div
+class="fcf-form-group">
+<label for="Message" class="fcf-label">Skriv din besked herunder</label>
+<div class="fcf-input-group">
+<textarea id="Message" name="Afsenders - BESKED (GJORT OK)" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+</div><br>
+ 
+
+<div required="true" >
+<input type="checkbox" name="Har (GODKENT) acceptere hermed (Vilkår og Betingelser)" value="(GODKENDT OK)" id="Jeg acceptere vilkårene.php" required="true">
+<a href="https://nerveous.github.io/Gaming4Life/Vilk%C3%A5r-og-Betingelser.html">Jeg Acceptere hermed (ALLE) © Gaming4Life og NerveousEntertainment. (Vilkår og Betingelser) denne hjemmeside måtte byde på nu og fremover. </a>
+    <div><br>
+<input  type="submit" name="Sendt besked" value="Send besked"> eller
+<input  type="reset" value="Prøv igen">
+          <div> 
+         </div> 
+      </div>
+</form>
+
+</body>
+</html>
