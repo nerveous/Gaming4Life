@@ -109,51 +109,50 @@
     <section class="u-clearfix u-section-1" id="sec-853f">
       <div class="u-clearfix u-sheet u-sheet-1"></div>
     </section>
-    <section class="u-align-left u-clearfix u-section-2" id="sec-da1c">
+    <section class="u-align-center u-clearfix u-section-2" id="sec-da1c">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <h1 class="u-align-center u-heading-font u-text u-title u-text-1">Kontakt os</h1>
+        <h1 class="u-heading-font u-text u-title u-text-1">Kontakt os</h1>
         <div class="u-clearfix u-custom-html u-custom-html-1">
-          <meta charset="utf-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-          <title></title>
-          <link href="contact-form.css" rel="stylesheet">
-          <div class="fcf-body">
-            <div id="fcf-form">
-              <h3 class="fcf-h3">Kontakt os her</h3>
-              <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-                <div class="fcf-form-group">
-                  <label for="Name" class="fcf-label">Skriv dit navn her</label>
-                  <div class="fcf-input-group">
-                    <input type="text" id="Name" name="Name" class="fcf-form-control" required="">
+          <header>
+            <script> <form action="#" onsubmit="if(document.getElementById('Jeg acceptere vilkårene.php').checked) { 
+return true; } else { alert('Vær søde at acceptere vores (Vilkår og Betingelser) for at forsætte.'); return false; }">
+if (empty($_POST['accepter']) || $_POST['accepter'] != 'accepter') {
+   echo 'Vær søde at acceptere vores (Vilkår og Betingelser) for at forsætte.';
+} </script>
+            <h2>Kontakt os herunder tak:</h2>
+            <br>
+            <form action="mailto:gaming4life.s@yahoo.com" method="post" enctype="text/plain"> (Rigtige) navn her:<br>
+              <input type="text" name="Afsenders - NAVN (GJORT OK)" required="true">
+              <br>
+              <br> (Rigtige) e-mail her:<br>
+              <input type="text" name="Afsenders - E-MAIL (GJORT OK)" required="true">
+              <br>
+              <br>
+              <div class="fcf-form-group">
+                <label for="Message" class="fcf-label">Skriv din besked herunder</label>
+                <div class="fcf-input-group">
+                  <textarea id="Message" name="Afsenders - BESKED (GJORT OK)" class="fcf-form-control" rows="6" maxlength="3000" required=""></textarea>
+                </div>
+                <br>
+                <div required="true">
+                  <input type="checkbox" name="Har (GODKENT) acceptere hermed (Vilkår og Betingelser)" value="(GODKENDT OK)" id="Jeg acceptere vilkårene.php" required="true">
+                  <a href="https://nerveous.github.io/Gaming4Life/Vilk%C3%A5r-og-Betingelser.html">Jeg Acceptere hermed (ALLE) © Gaming4Life og NerveousEntertainment. (Vilkår og Betingelser) denne hjemmeside måtte byde på nu og fremover. </a>
+                  <div>
+                    <br>
+                    <input type="submit" name="Sendt besked" value="Send besked"> eller <input type="reset" value="Prøv igen">
+                    <div></div>
                   </div>
                 </div>
-                <div class="fcf-form-group">
-                  <label for="Email" class="fcf-label">Skriv din e-mail adresse her </label>
-                  <div class="fcf-input-group">
-                    <input type="email" id="Email" name="Email" class="fcf-form-control" required="">
-                  </div>
-                </div>
-                <div class="fcf-form-group">
-                  <label for="Message" class="fcf-label">Skriv din besked herunder</label>
-                  <div class="fcf-input-group">
-                    <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required=""></textarea>
-                  </div>
-                </div>
-                <div class="fcf-form-group">
-                  <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-block fcf-btn-lg fcf-btn-primary">Send Beskeden</button>
-                </div>
-                <div class="fcf-credit" id="fcf-credit"></div>
-                <input type="hidden" value="" name="recaptchaResponse">
-              </form>
-            </div>
-          </div>
+              </div>
+            </form>
+          </header>
         </div>
       </div>
     </section>
     
     
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-0f4a"><div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-align-center u-text u-text-1">Email Support:&nbsp;Gaming4LifeSupport@aol.com&nbsp;-&nbsp;<a href="Vilkår-og-Betingelser.html">Vilkår &amp; Betingelser</a>&nbsp;-&nbsp;<a href="Vilkår-og-Betingelser.html">Rettigheder &amp; Persondataloven</a>&nbsp;-&nbsp;<a href="Vilkår-og-Betingelser.html">Browser&nbsp;Cookies</a>&nbsp;-&nbsp;<a href="Nyheder-og-Updateringer.html">Updateringer</a>
+        <p class="u-align-center u-text u-text-1">Email Support:&nbsp;<a href="Kontakt-os.html">gaming4life.s@yahoo.com</a>&nbsp;-&nbsp;<a href="Vilkår-og-Betingelser.html">Vilkår &amp; Betingelser</a>&nbsp;-&nbsp;<a href="Vilkår-og-Betingelser.html">Rettigheder &amp; Persondataloven</a>&nbsp;-&nbsp;<a href="Vilkår-og-Betingelser.html">Browser&nbsp;Cookies</a>&nbsp;-&nbsp;<a href="Nyheder-og-Updateringer.html">Updateringer</a>
           <br>Eventuelle Spørgsmål &amp; Svar kan du skrive/finde På&nbsp;<a href="https://www.minds.com/Gaming4Life" class="text-white">(Bloggen)</a>
         </p>
         <p class="u-large-text u-text u-text-default u-text-font u-text-variant u-text-2">Updaterings Version -&nbsp;&nbsp;<b>0.2</b>
